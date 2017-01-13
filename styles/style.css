@@ -111,3 +111,198 @@ header {
     border-right: 3px solid rgba(96, 92, 92, 0.92);
     
 }
+
+#cat_combo {
+    display: block;
+    height: 81px;
+    background: url(../images/combo_1.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#cat_combo:hover {
+    background: url(../images/combo.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-right: 3px solid rgba(96, 92, 92, 0.92);
+}
+
+#cat_micro {
+    display: block;
+    height: 81px;
+    background: url(../images/microphone_1.png) no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+#cat_micro:hover {
+    background: url(../images/microphone.png) no-repeat;
+    background-size: 60%;
+    background-position: center;
+    border-right: 3px solid rgba(96, 92, 92, 0.92);
+}
+
+.shop_item {
+    margin-left: 95px;
+}
+
+.shop_item h1 {
+    display: block;
+    text-align: left;
+    margin: 13px 15px 0px 15px; 
+    font-family: Arial;
+    background-color: #ffffff;
+    border-bottom: 2px solid #585454;
+}
+
+.shop_item h3 {
+    display: block;
+    text-align: left;
+    margin: 0px 15px 10px 15px; 
+    font-family: Arial;
+    background-color: #eee;
+    font-size: 16px;
+}
+
+.shop_item h2 {
+    display: block;
+    text-align: left;
+    margin: 13px 15px 10px 15px; 
+    font-family: Arial;
+    font-size: 26px;
+}
+
+.shop_item h4 {
+    display: block;
+    text-align: left;
+    margin: 0px 15px 10px 15px; 
+    font-family: Arial;
+    background-color: #eee;
+    font-size: 14px;
+}
+
+.shop_item p {
+    margin: 0px 15px 10px 15px;
+    text-align: justify;
+}
+
+
+
+.product_image {
+    margin: 13px 15px 15px 15px;
+    height: 100%;
+    position: relative;
+    display: flex;    
+}
+
+.product_image img {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    max-height: 250px;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(15, 13, 13, 0.77);
+}
+
+#shop_face {
+    margin-left: 95px;
+    margin-top: 80px;
+    font-family: Arial, sans-serif;
+}
+
+.poster {
+    width: 100%;
+    height: 300px;
+    background: url(../images/Moby-workspace.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.poster h1 {
+    display: block;
+    width: 100%;
+    height: 110px;
+    padding-top: 130px;
+}
+
+#copyright {
+    text-align: center;
+    color: #c4c4c4;
+}
+
+#footer_content {
+    height: 90px;
+}
+
+.shop_description {
+    text-align: center;
+}
+
+.pay {
+    margin: 0px 15px 20px 15px;
+    height: 76px;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.pay_form {
+    border-top: 3px solid #4d4c4c;
+}
+
+
+#left {
+    display: block;
+    float: left;
+}  
+
+#right {
+    display: block;
+    float: right;
+}
+
+.pay_button {
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 98px;
+    height: 34px;
+    background-color: rgba(238, 238, 238, 0.5);
+    font-family: Arial, sans-serif;
+    color: #4a4949;
+    font-weight: 700;
+    font-size: 21px;
+    border: 2px solid #4d4c4c;
+}
+
+.price {
+    height: 29px;
+    background-color: rgba(238, 238, 238, 0.5);
+    color: #e53434;
+}
+
+h5 {
+    display: block;
+    text-align: left;
+    margin: 0px 15px 10px 15px; 
+    font-family: Arial;
+    background-color: #fafafa;
+    font-size: 12px;
+}
