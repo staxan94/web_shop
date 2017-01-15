@@ -7,16 +7,17 @@
 	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster|Merriweather+Sans|Pacifico" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<a href="../index.html" id="logo"></a>
-		<a href="../index.html" id="shop_name" style="font-family: 'Lobster', cursive;">МУЗТОРГ</a>
-		<div id="navigation">
-			<a href="#">Главная</a>
-			<a href="#">Корзина</a>
-			<a href="#">Наши магазины</a>
+	<header class="flex-container-head">
+		<div class="flex-block-head"><a href="../index.html" id="logo"></a>
+		<a href="../index.html" id="shop_name" style="font-family: 'Lobster', cursive;">МУЗТОРГ</a></div>
+		<div class="flex-block-head" id="navigation">
+			    <div id="nav_a"><a href="#" >Главная</a>
+			    <a href="#" >Корзина</a>
+			    <a href="#" >Наши магазины</a></div>
 		</div>
 	</header>
-	<nav id="catalog">
+	<div class="flex-container-main">
+	<nav id="catalog" class="flex-block-main">
 	    <ul id="catalog_list">
 	        <li class="catalog_item"><a href="guitars.html" id="cat_guitar"></a></li>
 	        <li class="catalog_item"><a href="keys.html" id="cat_piano"></a></li>
@@ -24,7 +25,7 @@
 	        <li class="catalog_item"><a href="micros.html" id="cat_micro"></a></li>
 	    </ul>
 	</nav>
-	<main>
+	<main class="flex-block-main">
 		<div class="shop_item">
 			<h1>Микрофоны</h1>
 			<h3>Аналоговая радиосистема, SHURE SLX серия</h3>
@@ -56,6 +57,7 @@
 			</div>
 		</div>
 	</main>
+	</div>
 	<footer>
 		
 	</footer>

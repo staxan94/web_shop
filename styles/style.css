@@ -33,6 +33,7 @@ header {
     text-align: center;
     color: #eee;
     text-decoration: none;
+    align-self: flex-start;
 }
 
 #navigation {
@@ -48,9 +49,10 @@ header {
     padding-right: 15px;
     padding-left: 15px;
     color: rgb(239, 237, 237);
-    border-left: 1px solid #6c6565;
+    border-right: 1px solid #6c6565;
     font-family: sans-serif;
 }
+
 
 #navigation a:hover {
     color: #9f9e9e;
@@ -306,4 +308,44 @@ h5 {
     font-family: Arial;
     background-color: #fafafa;
     font-size: 12px;
+}
+
+.flex-container-head {
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-between;
+}
+
+
+@media screen and (max-width:650px) { 
+    
+    body {
+        font-size:0.7em; 
+    }
+    header {
+        height: 100px;
+    }
+    .flex-container-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    }
+    .flex-block-head  {
+    display: flex;
+    justify-content:  center;
+    align-items: stretch;
+    }
+    #nav_a a:last-child {
+    border-right: none;
+    }
+    
+}
+
+
+header { 
+    transition:all .2s linear; 
+    -o-transition:all .2s linear; 
+    -moz-transition:all .2s linear; 
+    -webkit-transition:all .2s linear;
 }
